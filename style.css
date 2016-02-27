@@ -1,0 +1,71 @@
+div{
+  font-family:Helvetica;
+}
+
+div#calendarDiv{
+  width: 602px;
+  float:left;
+}
+ 
+.box{
+    position:relative;
+    height:40px;
+}
+ 
+.header{
+    line-height:40px;  
+    width:570px;
+    text-align:center;
+}
+ 
+a.prev,a.next{ 
+    position:absolute;
+    top:0px;   
+    cursor:pointer;
+}
+ 
+ 
+ul.label{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    margin-top:5px;
+    margin-left: 5px;
+}
+
+ul.label li{
+    float:left;
+    list-style-type:none;
+    width:80px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+
+ul.dates{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+ 
+ul.dates span{
+    line-height:80px;
+    float:left;
+    width:80px;
+    height:80px;
+    text-align:center; 
+	cursor:pointer;
+	border-width:1px;
+	border-style:solid;
+	text-decoration:underline;
+}
+ 
+div.link{
+	margin-right:10px;
+	margin-top:5px;
+	cursor:pointer;
+	text-decoration:underline;
+	color:blue;
+}
